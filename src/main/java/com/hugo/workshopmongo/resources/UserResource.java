@@ -22,7 +22,7 @@ import com.hugo.workshopmongo.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UsersResource {
+public class UserResource {
     
     @Autowired
     private UserService service;
